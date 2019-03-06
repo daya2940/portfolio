@@ -1,0 +1,167 @@
+  
+.back1 {
+      background-color:skyblue;
+  }
+  .back2 {
+  	background: url(http://www.desktopwallpaperhd.net/wallpapers/11/1/cool-background-pretty-themes-images-111553.jpg);
+  }
+  hr, 
+ h1 {
+  	color: silver;
+  }
+     .contacts {
+  		height: auto;
+  		display: grid;
+  		grid-template-columns: 1fr 1fr;
+  		grid-template-rows: 1fr 1fr;
+  		grid-gap: 20px 20px;
+  	}
+  .forimage {
+  	border-width: 10px;
+  	border-radius: 100%;
+  	height: 200px;
+  	width: 200px;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding-top: 10px;
+  	display: flex;
+  }
+  .forbutton {
+  	display: flex;
+                    justify-content:flex-end;
+                    margin-right:10px;
+                    padding-top: 30px;
+                     
+  }
+  .para {
+  	color: white;
+  	font-size: 30px;
+  	font-family: Loboster;
+  	display: flex;
+  }
+  .logo {
+  	max-height: 200px;
+  	min-height: 200px;
+  	display:flex;
+                  
+  }
+  .portfoliogrid {
+  	display: grid;
+  	grid-template-columns: 1fr 1fr;
+  	grid-template-rows: 1fr 1fr;
+  	grid-gap: 20px 20px;
+  }
+  .size {
+  	max-width: 600px;
+  	max-height: 600px;
+  }
+  .fa {
+  	font-size: 50px;
+  	margin-right: 104px;
+  	padding: 20px;
+  	border-radius: 100%;
+  	display: flex;
+  }
+  .fa:hover {
+  	opacity: 0.7;
+  }
+  .fa-facebook {
+  	background: #3B5998;
+  	color: white;
+  }
+  .fa-twitter {
+  	background: #55ACEE;
+  	color: white;
+  }
+  .fa-google {
+  	background: #dd4b39;
+  	color: white;
+  }
+  .fa-linkedin {
+  	background: #007bb5;
+  	color: white;
+  }
+  .fa-youtube {
+  	background: #bb0000;
+  	color: green;
+  }
+  .fa-instagram {
+  	background: #125688;
+  	color: blue;
+  }
+  a {
+  	text-decoration: none;
+  }
+  @media screen and (max-width:640px) {
+  	p {
+  		display: block;
+  		text-align: center;
+  		height: auto;
+  		width: 100%;
+  	}
+  	img {
+  		width: 100%;
+  		height: auto;
+  	}
+  	.contacts {
+  		height: auto;
+  		display: grid;
+  		grid-template-columns: 1fr 1fr;
+  		grid-template-rows: 1fr 1fr;
+  		grid-gap: 20px 20px;
+  	}
+  	.logo {
+  		display:flex;
+                                         justify-content:center;
+                                                                
+  	}
+  	button {
+  		display: flex;
+  		width: 100%;
+                                       
+  	}
+  	.para2 {
+  		margin-bottom: 0.8em;
+  		margin-left: 0;
+                                        margin-top:1em;
+  		margin-right: 0;
+  	}
+  }
+  @media screen and (min-width:642px) and (max-width:1024px) {
+  	p {
+  		display: flex;
+  		margin-left: auto;
+  		margin-right: auto;
+  		height: auto;
+  		width: 100%;
+  	}
+  	img {
+  		width: 100%;
+  		height: auto;
+  	}
+  	.contacts {
+  		width: 100%;
+  		height: auto;
+  		display: grid;
+  		grid-template-columns: 1fr 1fr;
+  		grid-template-rows: 1fr 1fr;
+  		grid-gap: 20px 20px;
+  	}
+  	.logo {
+                           max-height:300px;
+                          display:flex;
+                          justify-content:flex-start;
+  	}
+  }
+  button {
+  	padding-top: -125px;
+                    margin-right:10px;                 
+  }
+  .para2 {
+  	margin-bottom: 0.8em;
+  	margin-left: 0px margin-top:1em;
+  	margin-right: 0px;
+  }
+  }
+ 
